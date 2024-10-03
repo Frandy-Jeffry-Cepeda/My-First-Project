@@ -24,7 +24,7 @@ export default function NoteList() {
         ): (
             <>
             <h2 className="font-black text-3xl text-center text-white">No hay notas</h2>
-            <p className="text-xl mt-5 mb-10 text-center text-white">
+            <p className="text-xl mt-5 mb-10 text-center text-white mx-5">
                 Comienza agregando notas {''}
                 <span className=" font-bold text-white">y aparecerán en este lugar</span>
             </p>

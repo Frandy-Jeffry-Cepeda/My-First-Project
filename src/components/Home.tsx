@@ -16,8 +16,8 @@ export default function Home() {
 
     <div className="container mx-auto mt-20">
       
-      <header className="flex justify-between py-10 mx-auto">
-          <h1 className="text-white font-bold text-4xl">Crea tus <span className="text-indigo-600">Notas</span> con facilidad</h1>
+      <header className="flex justify-between py-10 px-4">
+          <h1 className="text-white font-bold text-4xl py-1">Crea tus <span className="text-indigo-600 py-1">Notas</span> con facilidad</h1>
           <button className=" bg-red-500 p-3 text-white uppercase font-bold hover:bg-red-600 cursor-pointer transition-colors rounded-lg"
           onClick={restartApp}
           >Resetear App
